@@ -24,6 +24,7 @@
 # Streamlit dependencies
 import streamlit as st
 import joblib,os
+from PIL import Image
 
 # Data dependencies
 import pandas as pd
@@ -41,7 +42,7 @@ def main():
 
 	# Creates a main title and subheader on your page -
 	# these are static across all pages
-	st.title("Tweet Classifer")
+	st.title("Tweet Classifier")
 	st.subheader("Climate change tweet classification")
 
 	# Creating sidebar with selection box -
