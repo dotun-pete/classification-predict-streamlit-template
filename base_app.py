@@ -43,8 +43,8 @@ def main():
 	# Creates a main title and subheader on your page -
 	# these are static across all pages
 	st.title("Tweet Classifier")
-	st.subheader("Climate change Tweet classification")
-	image = Image.open("C:/Users/ASBVALIANT/Documents/ACCOUNT & FINANCE DEPT/New Employment/twit.jpg")
+	#st.subheader("Climate change tweet classification")
+	#image = Image.open("C:/Users/ASBVALIANT/Documents/ACCOUNT & FINANCE DEPT/New Employment/twit.jpg")
 	st.image(image)
 
 	# Creating sidebar with selection box -
